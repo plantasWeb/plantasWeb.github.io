@@ -1,0 +1,161 @@
+.nav-contenedor{
+    background: black;
+    width: 100%;
+    border-radius: 0px 15px;
+    
+    
+    
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.nav-productos:focus{
+    background: blue;
+}
+    
+
+.producto-container{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-wrap: wrap;
+    margin: 10px 0px;
+}
+
+
+.productos{
+    background-color: rgb(240, 240, 232,0.5);
+    backdrop-filter: blur(8px);
+    
+    margin: 15px 0px;
+    width: 350px;
+    height: 380px;
+    
+    border: solid 2px white;
+    border-radius: 0px 20px;
+
+    text-align: center;
+    font-weight: bold;
+    padding: 3px;
+
+    font-family: "Playfair Display", serif;
+
+    transition: all 0.3s ease-in;
+    
+}
+
+.productos:hover{
+    background: transparent;
+    backdrop-filter: blur(8px);
+    cursor: default;
+    transform: translate(8px);
+    color: white;
+}
+
+.productos img{
+    border-radius: 0px 20px;
+    padding: 5px;
+    border: solid black 2px;
+    background-color: rgb(3, 3, 3);
+
+    transition: all 0.5s ease-in;
+
+    width: 200px;
+    height: 200px;
+    float: right;
+
+}
+
+.productos img:hover{
+    transform: translate3d(0px, 8px, 0px);
+}
+
+.productos h2{
+    color: rgba(11, 11, 11, 0.967);
+    font-family: "Playwrite PE", cursive;
+    
+}
+
+.buton-price{
+    margin-top: 20px;
+    position: relative;
+    padding: 10px;
+}
+
+.productos div input{
+    width: 120px;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    background: linear-gradient(to left,rgb(7, 156, 220),rgb(208, 33, 247));
+    font-size: 18px;
+    font-family: "Playwrite BE VLG", cursive;
+    margin-right: 15px;
+    margin-left: 5px;
+    margin-top: 15px;
+
+
+    transition: all 0.2s ease-in;
+}
+.productos div input:hover{
+    color: white;
+    background: linear-gradient(to right,rgb(7, 156, 220),rgb(208, 33, 247));
+    cursor: pointer;
+}
+
+div .rosa{
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+div .aloe{
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+
+div .bambu{
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+div .cactus{
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+div .girasol{
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+div .helecho{
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+div .lavanda{
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+div .menta{
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+div .orquideas{
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+div .pino{
+    width: 200px;
+    height: 200px;
+    float: right;
+}

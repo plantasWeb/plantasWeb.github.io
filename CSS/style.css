@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: url('../IMG/fondo2.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+
+}
+
+.nav-contenedor{
+    background: black;
+    width: 100%;
+    border-radius: 0px 15px;
+    
+    
+}
+
+
+.nav-contenedor ul li{
+    display: inline-block;
+    padding: 8px 15px;
+    color: white;
+    font-size: 20px;
+    font-family: "Playwrite PE", cursive;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+    margin: 15px 10px; 
+
+}
+
+
+
+
+
+.nav-contenedor ul li a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.nav-contenedor ul li:hover{
+    text-shadow: 0px 0px 20px white;
+    cursor: pointer;
+    background-color: rgba(106, 123, 134, 0.655);
+    border-radius: 0px 15px;
+}
+
+i{
+    box-sizing: border-box;
+    width: 20px;
+    margin-right: 15px;
+    text-align: center;
+    color: rgb(3, 121, 39);
+}
+
+.description{
+    border-radius: 0px 20px;
+    background: transparent;
+    backdrop-filter: blur(8px);
+    box-shadow: 0px 0px 15px whitesmoke;
+    text-align: center;
+    width: 50%;
+    position: relative;
+    left: 350px;
+    margin: 8px 0px;
+    
+}
+
+.description p{
+    text-align: unset;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+
+
+
+
+
+
+
+.figure-container{
+    display: flex;
+    margin-left: 10px;
+
+}
+
+.figure{
+    width: 50%;
+    border: solid 2px white;
+    border-radius: 0px 15px;
+    background: transparent;
+    backdrop-filter: blur(8px);
+    color: azure;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px;
+    text-align: justify;
+
+}
+
+
+.figure img{
+    float: right;
+    width: 280px;
+    padding: 10px;
+    border-radius: 0px 25px;
+}
+
+
+
+
+footer{
+    background-color: black;
+    border-radius: 0px 15px;
+    color: white;
+    width: 100%;
+    height: 40vh;
+    margin-top: 20px;
+}
+
+footer p{
+    
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 250px;
+}
+
