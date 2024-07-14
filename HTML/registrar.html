@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/styleRegistrar.css">
+    <script src="https://kit.fontawesome.com/890b7bc540.js" crossorigin="anonymous"></script>
+    <title>Inicia Sesion</title>
+</head>
+<body>
+    <div class="container">
+        <div class="div_container">
+            <div class="div_container-content">
+                <h2>Crea tu Usuario</h2>
+            </div>
+            
+            <div class="div_container-content">
+                <form action="">
+                    <div class="form">
+                        <div class="input-container">
+                            <input id="email" class="email-pass" type="email">
+                            <label id="email" class="label" for="email">Ingrese su correo</label>
+                            <input id="password" class="email-pass" type="password">
+                            <label id="password" class="label" for="password">Ingrese su contraseña</label>
+                        </div>
+                        <div class="botones">
+                            <input id="iniciar" class="ini-salir" type="submit" value="Iniciar Sesion" name="iniciaSesion">
+                            <input class="ini-salir" type="submit" value="Salir" name="salir">
+                        </div>
+                        <div class="info">
+                            <p>¿No tienes una cuenta?<a href="">Registrate aquí</a></p>
+                        </div>
+                        
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script>
+        // JavaScript para gestionar el comportamiento cuando se enfoca el input
+        const inputField = document.getElementById('email');
+        const inputField2 = document.getElementById('password');
+
+
+        const label = inputField.nextElementSibling;
+        const label2 = inputField2.nextElementSibling;
+        
+        //============== label ===============
+        inputField.addEventListener('focus', () => {
+            label.style.top = '5px';
+            label.style.fontSize = '14px';
+            label.style.color = '#4682b4';
+        });
+    
+        inputField.addEventListener('blur', () => {
+            if (inputField.value === '') {
+                label.style.top = '20px';
+                label.style.fontSize = '16px';
+                label.style.color = '#888';
+            }
+        });
+
+        //===================== label2 =============
+        inputField2.addEventListener('focus', () => {
+            label2.style.top = '5px';
+            label2.style.fontSize = '14px';
+            label2.style.color = '#4682b4';
+        });
+    
+        inputField2.addEventListener('blur', () => {
+            if (inputField2.value === '') {
+                label2.style.top = '20px';
+                label2.style.fontSize = '16px';
+                label.style.color = '#888';
+            }
+        });
+    </script>
+</body>
+</html>
